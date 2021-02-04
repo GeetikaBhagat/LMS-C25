@@ -34,22 +34,7 @@ class Dustbin {
         image(this.image, 0,-80, this.w, this.h + 200);
         pop();
 
-        //var angle = this.leftB.angle;
-        push();
-        translate(posL.x, posL.y)
-        rectMode(CENTER);
-        angleMode(RADIANS);
-        rotate(this.angle)
-        // rect(0, 0, this.h, this.w)
-        pop();
-
-        push();
-        translate(posR.x, posR.y);
-        rectMode(CENTER);
-        angleMode(RADIANS);
-        rotate(-1 * this.angle)
-        //rect(0, 0, this.h, this.w)
-        pop();
+        
     }
 }
 
